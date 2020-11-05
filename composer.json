@@ -1,6 +1,6 @@
 {
-	"name": "gears/pdf",
-	"description": "A PDF builder using HTML or DOCX templates.",
+	"name": "kvvn/gears_pdf_fork",
+	"description": "Fork for gears/pdf. A PDF builder using HTML or DOCX templates.",
 	"homepage": "https://github.com/phpgearbox/pdf",
 	"keywords": ["pdf", "docx", "template", "builder", "converter"],
 	"license": "MIT",
@@ -14,10 +14,10 @@
 	"require":
 	{
 		"gears/di": "*",
-		"gears/string": "^0.6.0",
+		"gears/string": "1.1.1",
 		"symfony/process": "2.*",
 		"symfony/filesystem": "2.*",
-		"jakoch/phantomjs-installer": "1.9.8"
+		"jakoch/phantomjs-installer": "3.0.0"
 	},
 	"require-dev":
 	{

@@ -1,3 +1,8 @@
+fork of gears/pdf
+update phantomjs-installer to 3.0.0 for composer 2.0
+update gears/string to 1.1.1 
+
+
 > Looking for maintainers, I no longer do much if any PHP dev, I have moved on, mostly work in dotnet core, node.js & golang these days. If anyone is keen to take over these projects, get in touch - brad@bjc.id.au
 
 _PS. I know this is one of the more popular repos and I know some of you have been having a few issues with it. I use [athenapdf](https://www.athenapdf.com/) for all my PDF generation needs these days._
@@ -28,7 +33,7 @@ How to Install
 --------------------------------------------------------------------------------
 Installation via composer is easy:
 
-	composer require gears/pdf:*
+	composer require kvvn/gears_pdf_fork:*
 
 You will also need to add the following to your root ```composer.json``` file.
 
